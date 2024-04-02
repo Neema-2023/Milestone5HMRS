@@ -1,21 +1,22 @@
-# Milestone5HMRS
-AWS HR Training Schedule Cloud Application
+# CST-323 - Cloud Computing
 
-Contributors:
+## AWS HR Training Schedule Cloud Application
 
-Grace Njuguna
+# Contributors:
 
+1. Juan Salazar
+2. Grace Njuguna
 
-About
-AWS HR Training Schedule Cloud Application
+# About
 
-Sitemap
-![sitemap](https://github.com/Neema-2023/Milestone5HMRS/assets/131406712/091f08d8-4acf-43cc-bd31-8a0552127d27)
+# Sitemap
 
-ERD
+![Sitemap](./assets/sitemap.png "Sitemap")
 
-![erd](https://github.com/Neema-2023/Milestone5HMRS/assets/131406712/c0d4fc64-8854-456b-90bc-1e0a1ce1c1b2)
+# ERD
 
-UI Diagram
+![erd](./assets/erd.png "ERD")
 
-![uiDiagram](https://github.com/Neema-2023/Milestone5HMRS/assets/131406712/dead5a09-9d82-4da4-9eea-441a5f4b9d8e)
+# UI Diagram
+
+![uiDiag](./assets/uiDiagram.png "Title")
