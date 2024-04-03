@@ -1,8 +1,8 @@
 <?php
-$host = 'database-1.cpwgy466mtid.us-east-1.rds.amazonaws.com';
-$dbname = 'trainingDB';
-$username = 'admin';
-$password = 'Zz8U&JP1^UczS';
+$host = 'milestone5hmrs-server.mysql.database.azure.com';
+$dbname = 'Milestone5HMRS';
+$username = 'gzfemdsgdy';
+$password = '$XdsiMGt67QSoak2';
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
