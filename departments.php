@@ -8,7 +8,7 @@ $logger->info('User accessed department.php');
 use App\Service\TrainingService;
 use App\Repository\TrainingScheduleRepository;
 
-$db = new mysqli('database-1.cpwgy466mtid.us-east-1.rds.amazonaws.com', 'admin', 'Zz8U&JP1^UczS', 'trainingDB');
+$db = new mysqli('milestone5hmrs-server.mysql.database.azure.com', 'gzfemdsgdy', '$XdsiMGt67QSoak2', 'milestone5hmrs-server');
 if ($db->connect_error) {
     $logger->info('Connection failed at departments.php');
     die("Connection failed: " . $db->connect_error);
