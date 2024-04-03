@@ -10,7 +10,7 @@ use App\Repository\TrainingScheduleRepository;
 
 try {
     $logger->info('Connecting to database');
-    $db = new mysqli('database-1.cpwgy466mtid.us-east-1.rds.amazonaws.com', 'admin', 'Zz8U&JP1^UczS', 'trainingDB');
+    $db = new mysqli('milestone5hmrs-server.mysql.database.azure.com', 'gzfemdsgdy', '$XdsiMGt67QSoak2', 'Milestone5HMRS');
     if ($db->connect_error) {
         $logger->info('Connection Failed. Check Uptime Robot.');
         throw new Exception("Connection failed: " . $db->connect_error);
