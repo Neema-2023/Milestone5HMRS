@@ -1,11 +1,10 @@
 # CST-323 - Cloud Computing
 
-## AWS HR Training Schedule Cloud Application
+## MS Azure Training Schedule Cloud Application
 
 # Contributors:
 
-1. Juan Salazar
-2. Grace Njuguna
+1. Grace Njuguna
 
 # About
 
