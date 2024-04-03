@@ -8,7 +8,7 @@ $logger->info('User accessed create.php');
 use App\Service\TrainingService;
 use App\Repository\TrainingScheduleRepository;
 
-$db = new mysqli('milestone5hmrs-server.mysql.database.azure.com', 'gzfemdsgdy', '$XdsiMGt67QSoak2', 'milestone5hmrs-server');
+$db = new mysqli('milestone5hmrs-server.mysql.database.azure.com', 'gzfemdsgdy', '$XdsiMGt67QSoak2', 'milestone5hmrs-database');
 if ($db->connect_error) {
     $logger->error('Connection Failed. Check Uptime Robot');
     die("Connection failed: " . $db->connect_error);
