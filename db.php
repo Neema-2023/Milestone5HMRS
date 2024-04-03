@@ -1,6 +1,6 @@
 <?php
 $host = 'milestone5hmrs-server.mysql.database.azure.com';
-$dbname = 'milestone5hmrs-server';
+$dbname = 'milestone5hmrs-database';
 $username = 'gzfemdsgdy';
 $password = '$XdsiMGt67QSoak2';
 
