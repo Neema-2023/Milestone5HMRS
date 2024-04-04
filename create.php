@@ -8,7 +8,7 @@ $logger->info('User accessed create.php');
 use App\Service\TrainingService;
 use App\Repository\TrainingScheduleRepository;
 
-$db = new mysqli('database-1.cfs8smgio0kv.us-east-2.rds.amazonaws.com', 'Neema', 'Cleburne$$137', 'database-1');
+$db = new mysqli('database-1.cfs8smgio0kv.us-east-2.rds.amazonaws.com', 'Neema', 'Cleburne$$137', 'HMRS');
 if ($db->connect_error) {
     $logger->error('Connection Failed. Check Uptime Robot');
     die("Connection failed: " . $db->connect_error);
@@ -34,9 +34,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     exit();
 }
 
-echo '<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">';
-echo '<div class="container mt-3"><h2>Add Training Session</h2>';
-echo '<form method="POST">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<div class="container mt-3"><h2>Add Training Session</h2>
+<form method="POST">
         <div class="form-group"><label>Employee Name</label><input type="text" name="employeeName" class="form-control" required></div>
         <div class="form-group"><label>Department</label><input type="text" name="department" class="form-control" required></div>
         <div class="form-group"><label>Training Class</label><select name="trainingClass" class="form-control" required>
