@@ -8,7 +8,7 @@ $logger->info('User accessed department.php');
 use App\Service\TrainingService;
 use App\Repository\TrainingScheduleRepository;
 
-$db = new mysqli('database-1.cfs8smgio0kv.us-east-2.rds.amazonaws.com', 'Neema', 'Cleburne$$137', 'database-1');
+$db = new mysqli('neemalocalhost.database.windows.net,1433', 'Neema', 'Cleburne$$137', 'HMRS');
 if ($db->connect_error) {
     $logger->info('Connection failed at departments.php');
     die("Connection failed: " . $db->connect_error);
@@ -21,14 +21,14 @@ $logger->info('Getting all departments');
 $departments = $service->getAllDepartments();
 $logger->info('Got all departments successfully');
 
-echo '<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">';
-echo '<div class="container mt-3"><h2>Departments</h2>';
-echo '<a href="home.php" class="btn btn-primary mb-2">Go Home</a>';
+<link href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<div class="container mt-3"><h2>Departments</h2>
+<a href="home.php" class="btn btn-primary mb-2">Go Home</a>
 echo '<ul>';
 
 foreach ($departments as $department) {
-    echo "<li>{$department['department']}</li>";
+    <li>{$department['department']}</li>
 }
 
-echo '</ul></div>';
+</ul></div>
 ?>
