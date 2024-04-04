@@ -27,13 +27,13 @@ try {
     die('Error: ' . $e->getMessage());
 }
 
-echo '<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">';
-echo '<div class="container mt-3"><h2>Training Classes Report</h2>';
-echo '<a href="home.php" class="btn btn-primary mb-2">Go Home</a>';
-echo '<table class="table"><thead><tr><th>Employee Name</th><th>Department</th><th>Training Class</th><th>Date</th></tr></thead><tbody>';
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<div class="container mt-3"><h2>Training Classes Report</h2>
+<a href="home.php" class="btn btn-primary mb-2">Go Home</a>
+<table class="table"><thead><tr><th>Employee Name</th><th>Department</th><th>Training Class</th><th>Date</th></tr></thead><tbody>
 
 foreach ($trainings as $training) {
-    echo "<tr>
+     "<tr>
             <td>{$training['employeeName']}</td>
             <td>{$training['department']}</td>
             <td>{$training['trainingClass']}</td>
@@ -41,5 +41,5 @@ foreach ($trainings as $training) {
           </tr>";
 }
 
-echo '</tbody></table></div>';
+</tbody></table></div>
 ?>
