@@ -8,7 +8,7 @@ $logger->info('User accessed create.php');
 use App\Service\TrainingService;
 use App\Repository\TrainingScheduleRepository;
 
-$db = new mysqli('database-1.cfs8smgio0kv.us-east-2.rds.amazonaws.com', 'Neema', 'Cleburne$$137', 'HMRS');
+$db = new mysqli('neemalocalhost.database.windows.net,1433', 'Neema', 'Cleburne$$137', 'HMRS');
 if ($db->connect_error) {
     $logger->error('Connection Failed. Check Uptime Robot');
     die("Connection failed: " . $db->connect_error);
