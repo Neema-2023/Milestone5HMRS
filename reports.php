@@ -9,7 +9,7 @@ use App\Service\TrainingService;
 use App\Repository\TrainingScheduleRepository;
 
 try {
-    $db = new mysqli('database-1.cfs8smgio0kv.us-east-2.rds.amazonaws.com', 'Neema', 'Cleburne$$137', 'database-1');
+    $db = new mysqli('neemalocalhost.database.windows.net,1433', 'Neema', 'Cleburne$$137', 'HMRS');
     if ($db->connect_error) {
         $logger->info('Connection failed at reports.php');
         throw new Exception("Connection failed: " . $db->connect_error);
